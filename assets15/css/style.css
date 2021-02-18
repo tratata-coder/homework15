@@ -1,0 +1,23 @@
+
+* {
+    box-sizing: border-box;
+}
+main {
+    min-height: 80vh;
+}
+body {
+    margin: 0px;
+}
+div {
+    width: 450px;
+    margin: auto;
+}
+input:valid ~ button{
+    background-color: green;
+}
+input:valid ~ button:hover{
+    background-color: green;
+}
+input:valid ~ button:focus{
+    background-color: green;
+}
